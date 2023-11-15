@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  height: 90vh;
+}
+
+.navbar-brand{
+  text-decoration: none !important;
+  color: black;
+}
+
+/* wallets style */
+.wallet{
+  border: 1px solid rgb(132, 132, 132);
+  border-radius: 15px;
+
+}
+
+.wallets-container{
+  padding: 0px 10% ;
+  flex-wrap: wrap;
+}
+
+/* Agenda*/
+.kanban-column {
+  max-height: 70vh; 
+  overflow-y: scroll; 
+}
+
+.icon-pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 775px) {
+  .agendaContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kanban-column{
+    margin: 20px 5px;
+  }
+}
+
+/* landing page */
+.banner{
+  align-items: center !important;
+  background: url('../public/welcome.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+}
+
+/*weather style */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  overflow: auto;
+  background:linear-gradient(0deg, rgba(55, 55, 55, 0.3), rgba(98, 97, 97, 0.3)), url('../public/cold1.jpg') no-repeat center center/cover;
+}
+
+.app.warm{
+  background: url('../public/sunny.jpg') no-repeat center center/cover;
+}
+
+.app input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255, 0.8);
+  background: rgba(255,255,255, 0.1);
+  color: #f8f8f8;
+}
+
+
+.app .weatherContainer {
+  width: 50%;
+  height: 70%;
+  position: relative;
+  top: 10%;
+}
+
+.app .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+}
+
+.app .bottom {
+  margin: 5% auto;
+  padding: 5%;
+  border-radius: 12px;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+/*Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination__link,  .pagination__page  {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.pagination__link--active {
+  color: #4285f4; 
+  font-weight: bold;
+}
