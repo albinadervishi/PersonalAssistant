@@ -1,4 +1,6 @@
-<h1> PersonalAssistant</h1>  React, Next, Node, MongoDB
+<h1> PersonalAssistant</h1>  
+
+<p> A multifunctional web application built with React, Next.js, Node.js, and MongoDB. It offers user authentication, multiple wallet management for transactions, a drag-and-drop to-do list, and integrated weather updates, streamlining daily personal and financial tasks in a user-friendly interface</p>
 
 
 <p>Clone the project</p>
