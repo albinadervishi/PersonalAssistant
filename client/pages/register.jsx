@@ -31,7 +31,8 @@ const Register = () => {
         { firstName, email, password, confirmPassword },
         { withCredentials: true }
       );
-      if (response.status === 200 && response.data.success) {
+      console.log(response.data)
+      if ( response.data.msg == "success!") {
         // Check for a specific success flag in your response
         router.push("/");
       } else {
