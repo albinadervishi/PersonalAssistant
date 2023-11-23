@@ -12,7 +12,7 @@ git clone https://github.com/albinadervishi/PersonalAssistant.git
 <p>Go to the project directory</p>
 
 `
-cd PersonalAssistant
+cd PersonalAssistant/client
 `
 
 <p>Install depencies</p>
@@ -21,6 +21,12 @@ cd PersonalAssistant
 npm install
 `
 
+<p>Start the client</p>
+
+```
+npm run dev
+```
+
 <p>Start server</p>
 
 ```
@@ -28,13 +34,6 @@ cd server
 nodemon server.js
 or
 npm start server.js
-```
-
-<p>Start the client</p>
-
-```
-cd client
-npm run dev
 ```
 
 <p>For more information https://docs.google.com/document/d/1JTL9PKZ7xp7MUhupf_HZ_zEoThJ1yhYj/edit?usp=sharing&ouid=104149362868251550354&rtpof=true&sd=true</p>
