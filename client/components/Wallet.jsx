@@ -125,7 +125,7 @@ const Wallet = () => {
       </div>
 
       <div className="wallets-container d-flex justify-content-between py-3">
-        {wallet.length > 0 ? (
+        {user && wallet.length > 0 ? (
           wallet.map((wallet, index) => (
             <div
               key={index}

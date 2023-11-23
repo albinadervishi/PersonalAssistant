@@ -52,7 +52,6 @@ export default function Home() {
     axios
       .get("http://localhost:8000/api/tasks/" + userId)
       .then((res) => {
-        console.log(res.data);
         setTasks(res.data.tasks);
       })
       .catch((err) => {
