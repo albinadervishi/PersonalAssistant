@@ -26,6 +26,8 @@ npm install
 ```
 cd server
 nodemon server.js
+or
+npm start server.js
 ```
 
 <p>Start the client</p>
