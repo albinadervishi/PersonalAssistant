@@ -31,7 +31,6 @@ nodemon server.js
 <p>Start the client</p>
 
 ```
-cd..
 cd client
 npm run dev
 ```
