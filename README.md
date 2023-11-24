@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1> PersonalAssistant</h1>
 
-## Getting Started
+<p>Go to the PersonalAssistant https://personal-assistant-bay.vercel.app/</p>
 
-First, run the development server:
+<p> A multifunctional web application built with React, Next.js, Node.js, and MongoDB. It offers user authentication, multiple wallet management for transactions, a drag-and-drop to-do list, and integrated weather updates, streamlining daily personal and financial tasks in a user-friendly interface</p>
 
-```bash
+<p>Clone the project</p>
+
+`git clone https://github.com/albinadervishi/PersonalAssistant.git`
+
+<p>Go to the project directory</p>
+
+`cd PersonalAssistant`
+
+<p>Install depencies</p>
+
+`npm install`
+
+<p>Start the project</p>
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>Start server</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+cd server
+nodemon server.js
+or
+npm start server.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p>For more information https://docs.google.com/document/d/1JTL9PKZ7xp7MUhupf_HZ_zEoThJ1yhYj/edit?usp=sharing&ouid=104149362868251550354&rtpof=true&sd=true</p>
