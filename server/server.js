@@ -14,6 +14,8 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://personal-assistant-bay.vercel.app",
+      "https://personal-assistant-g8pxwth05-albinas-projects-dad2c150.vercel.app/",
+      "https://personal-assistant-git-dev-albinas-projects-dad2c150.vercel.app/"
     ],
   })
 );
